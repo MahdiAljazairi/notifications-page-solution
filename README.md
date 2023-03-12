@@ -36,15 +36,15 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: <https://your-solution-url.com>
-- Live Site URL: <https://your-live-site-url.com>
+- Solution URL: <https://www.frontendmentor.io/solutions/-nuclear-hazard-7fZAVgdDmX>
+- Live Site URL: <https://notifications-page-solution-1234.netlify.app>
 
 ## My Process
 
 ### Nuclear Reactions All Over The Place!
 
 This is my first project built with React. And I think I did a great job!  
-It wasn't as hard as I thought, though.
+It wasn't as hard as I thought, though 🙃
 
 I made three component types:
 
@@ -52,7 +52,7 @@ I made three component types:
 - `NotifHeader`, for the header. The only actual reason why it was isolated from `NotifMain` is to reduce the crowded-ness (to some extent).
 - `Notif`, for the notifications. Where goes most of the work.
 
-One thing you might notice is that there is a file named `data.json` which didn't originally exist in the starter kit. If we're using React to build the page markup programatically, it wouldn't make sense to hard-code the content of the notifications. This kills the purpose of using React in the first place! So, and since the raw data wasn't provided by the Frontend Mentor team, I decided to create my own "artificial" JSON file. I even picked randomized numbers for the `elapsedTime` of each notification --which will yet result in the same output, eventually-- just to make it somewhat more realistic.
+One thing you might notice is that there is a file named `data.json` which didn't originally exist in the starter files. Generally speaking, if we're using React to build the page's markup programatically, it wouldn't make sense to hard-code the content of the notifications. This kills the purpose of using React in the first place! So, and since the raw data wasn't provided by the Frontend Mentor team, I decided to create my own "artificial" JSON file. I even picked randomized numbers for the `elapsedTime` of each notification --which will yet result in the same output, eventually-- just to make it somewhat more realistic.
 
 In the `Notif` function, I managed to write the most efficient code I could write to automatically assemble the text inside each notification depending on the `actionType` and `targetType`. It was just a matter of recognizing the pattern the text should follow, and then applying that pattern in the code.
 
@@ -62,7 +62,7 @@ Also, I added a little extra detail. A number in parentheses in the page's title
 
 I don't consider myself to be a master at web design --otherwise I should've made my own designs for my projects. But, there are some things that are obvious even for the dumbest.
 
-If you remove underlines from anchors (aka, `<a>` tags), which will strip away the very sign that a piece of text is a link, you have to give them some other sort of distinction to let them stick out. A shift in color or change of the cursor shape upon hover is not enough since the user needs to know that something can be interacted with before they do interact with it.
+If you remove underlines from anchors (aka, `<a>` tags), the thing which will strip away the very sign that a piece of text is a link, you have to give them some other sort of distinction to let them stick out. A shift in color or change of the cursor shape upon hover is not enough since the user needs to know that something can be interacted with before they do interact with it.
 
 The only --hardly noticeable-- distinction made in the original design between links and non-links is that links are bold. This is bad design. We need our websites to be accessible by most users even if they have low vision conditions. Plus, boldness is not an evident indication that you can interact with text.
 
