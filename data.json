@@ -1,0 +1,95 @@
+{
+  "notifications": [
+    {
+      "user": "#",
+      "userName": "Mark Webber",
+      "userAvatar": "assets/images/avatar-mark-webber.webp",
+      "actionType": "reaction",
+      "actionContent": "",
+      "target": "#",
+      "targetTitle": "My first tournament today!",
+      "targetThumbnail": "",
+      "targetType": "post",
+      "elapsedTime": "0/00:01:42",
+      "isUnread": true
+    },
+    {
+      "user": "#",
+      "userName": "Angela Gray",
+      "userAvatar": "assets/images/avatar-angela-gray.webp",
+      "actionType": "follow",
+      "actionContent": "",
+      "target": "",
+      "targetTitle": "",
+      "targetThumbnail": "",
+      "targetType": "",
+      "elapsedTime": "0/00:05:06",
+      "isUnread": true
+    },
+    {
+      "user": "#",
+      "userName": "Jacob Thompson",
+      "userAvatar": "assets/images/avatar-jacob-thompson.webp",
+      "actionType": "join",
+      "actionContent": "",
+      "target": "#",
+      "targetTitle": "Chess Club",
+      "targetThumbnail": "",
+      "targetType": "group",
+      "elapsedTime": "1/08:44:21",
+      "isUnread": true
+    },
+    {
+      "user": "#",
+      "userName": "Rizky Hasanuddin",
+      "userAvatar": "assets/images/avatar-rizky-hasanuddin.webp",
+      "actionType": "message",
+      "actionContent": "Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and I'm already having lots of fun and improving my game.",
+      "target": "#",
+      "targetTitle": "",
+      "targetThumbnail": "",
+      "targetType": "chat",
+      "elapsedTime": "5/20:19:37",
+      "isUnread": false
+    },
+    {
+      "user": "#",
+      "userName": "Kimberly Smith",
+      "userAvatar": "assets/images/avatar-kimberly-smith.webp",
+      "actionType": "comment",
+      "actionContent": "",
+      "target": "#",
+      "targetTitle": "Me playing chess",
+      "targetThumbnail": "assets/images/image-chess.webp",
+      "targetType": "picture",
+      "elapsedTime": "9/11:30:04",
+      "isUnread": false
+    },
+    {
+      "user": "#",
+      "userName": "Nathan Peterson",
+      "userAvatar": "assets/images/avatar-nathan-peterson.webp",
+      "actionType": "reaction",
+      "actionContent": "",
+      "target": "#",
+      "targetTitle": "5 end-game strategies to increase your win rate",
+      "targetThumbnail": "",
+      "targetType": "post",
+      "elapsedTime": "16/13:55:12",
+      "isUnread": false
+    },
+    {
+      "user": "#",
+      "userName": "Anna Kim",
+      "userAvatar": "assets/images/avatar-anna-kim.webp",
+      "actionType": "leave",
+      "actionContent": "",
+      "target": "#",
+      "targetTitle": "Chess Club",
+      "targetThumbnail": "",
+      "targetType": "group",
+      "elapsedTime": "18/14:07:59",
+      "isUnread": false
+    }
+  ]
+}
